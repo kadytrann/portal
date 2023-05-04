@@ -1,16 +1,18 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(185,202,222);
+    font-family: 'Dosis', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
 
 ::selection {
-    color: #000; 
+    color: rgb(174,194,198); 
     background: #ff0;
 }
 
@@ -21,6 +23,12 @@ h1 {
     line-height: 2.5em;
 }
 
+h1.page-header{
+    font-family: 'Lato', sans-serif;
+    color: rgb(96,124,141);
+    font-style: bold;
+}
+
 main.wrapper {
     background-color: white;
     overflow: auto;
@@ -28,12 +36,16 @@ main.wrapper {
 
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
+    color:rgb(96,124,141);
 }
 
-h2,h3 {
+h2 {
+    text-shadow: 2px 2px 5px rgb(121,158,196);
     font-weight: normal;
     margin-left: 1em;
     line-height: 1em;
+    color: rgb(96,124,141);
+    font-style: italic;
 }
 
 a {
@@ -43,7 +55,7 @@ a {
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: rgb(185,202,222);
     text-decoration: none;
 }
 
@@ -51,6 +63,7 @@ footer {
     clear: both;
     text-align: center;
     padding: 1em;
+    color:rgb(96,124,141);
 }
 
 /* Responsive rules */
