@@ -13,7 +13,7 @@ html {
 
 ::selection {
     color: rgb(174,194,198); 
-    background: #ff0;
+    background: whitesmoke;
 }
 
 h1 {
